@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Download Monitor",
+  "version": "1.0",
+  "description": "Monitors downloads initiated by the browser.",
+  "permissions": [
+    "downloads"
+  ],
+  "host_permissions": [
+    "http://localhost/*"
+  ],
+  "optional_host_permissions":[
+    "https://*/*",
+    "http://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

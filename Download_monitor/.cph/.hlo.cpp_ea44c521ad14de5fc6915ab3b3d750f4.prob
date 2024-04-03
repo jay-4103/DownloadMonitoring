@@ -1,0 +1,1 @@
+{"name":"Local: hlo","url":"/Users/jay/Desktop/Download_monitor/hlo.cpp","tests":[{"id":1709304608067,"input":"14\n1\n2\n3\n5\n7\n11\n12\n14\n16\n17\n18\n20\n98\n402931328","output":"1\n2\n1\n3\n2\n2\n2\n3\n2\n3\n2\n2\n8\n26862090"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/jay/Desktop/Download_monitor/hlo.cpp","group":"local","local":true}

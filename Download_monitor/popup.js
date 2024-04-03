@@ -1,0 +1,1 @@
+// This script can be used to dynamically update the popup with monitored download information.
